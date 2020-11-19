@@ -48,17 +48,15 @@ Configuring the Hardware
 
 The final setup should be: 
 
-![](../../../../docs/html/legato_qs_e54_cu_tm4301b_ssd1963.png)
+![](../../../../docs/html/legato_qs_e54_cu_tm4301b_ssd1963_conf1.png)
 
 Running the Demonstration
 -------------------------
 
 When power-on is successful, the demonstration will display a similar menu to that shown in the following figure (different configurations may have slight variation in the screen aspect ratio.
 
-![](../../../../docs/html/legato_qs_e70_xu_tm4301b_run1.png)
+![](../../../../docs/html/legato_quickstart_wqvga_run.png)
 
 When Make changes. Generate. Run. is touched, the button will toggle with each individual touch.
-
-![](../../../../docs/html/legato_qs_e70_xu_tm4301b_run2.png)
 
 * * * * *

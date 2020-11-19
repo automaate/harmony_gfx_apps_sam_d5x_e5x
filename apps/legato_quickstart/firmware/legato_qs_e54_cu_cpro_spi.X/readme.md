@@ -6,7 +6,7 @@ Defining the Architecture
 
 ![](../../../../docs/html/legato_qs_e54_cult_cpro_spi_arch.png)
 
-This application demonstrates single-layer, WQVGA graphics using SRAM memory.
+This application demonstrates single-layer HVGA graphics.
 
 User touch input on the display panel is received thru the PCAP capacitive touch controller, which sends a notification to the Touch Input Driver. The Touch Input Driver reads the touch information over I2C and sends the touch event to the Graphics Library thru the Input System Service.
 
