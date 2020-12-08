@@ -33,7 +33,7 @@ Adding the **SAM E54 Curiosity Ultra BSP** and **Legato Graphics w/ PDA TM4301B 
 Building the Application
 ------------------------
 
-The parent directory for this application is gfx/apps/legato_quickstart. To build this application, use MPLAB X IDE open the gfx/apps/legato_quickstart/firmware/legato_qs_e54_cu_tm4301b_ssd1963.X project file.. 
+The parent directory for this application is apps/legato_quickstart. To build this application, use IAR EW for ARM to open the apps/legato_quickstart/firmware/legato_qs_e54_cu_tm4301b_ssd1963.IAR project file.. 
 
 The following table lists configuration properties:
 
