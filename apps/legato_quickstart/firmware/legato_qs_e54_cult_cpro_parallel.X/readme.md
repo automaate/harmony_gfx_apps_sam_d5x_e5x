@@ -1,5 +1,5 @@
 
-![](../../../../docs/images/mhgs.png) legato\_quickstart\_e70\_xu\_ssd1963\_tm4301.X
+![](../../../../docs/images/mhgs.png) legato_qs_e54_cult_cpro_parallel.X
 
 Defining the Architecture
 -------------------------
@@ -51,7 +51,7 @@ Instead of write strobe, make sure PB17 is setup as RSDC instead
 Building the Application
 ------------------------
 
-The parent directory for this application is gfx_apps/legato_monitor. To build this application, use MPLAB X IDE to open the gfx_apps/legato_monitor/firmware/legato_qs_e54_cult_cpro_parallel.X project file. 
+The parent directory for this application is legato_monitor. To build this application, use MPLAB X IDE to open the legato_monitor/firmware/legato_qs_e54_cult_cpro_parallel.X project file. 
 
 The following table lists configuration properties:
 
