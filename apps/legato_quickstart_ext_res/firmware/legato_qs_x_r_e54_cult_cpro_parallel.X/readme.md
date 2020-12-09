@@ -104,11 +104,11 @@ When power-on is successful, the following screen will appear on the display
 
 Pressing the button will cause the application to load a new image. The image cycles in order from Uncompressed RAW with Direct Blit, Uncompressed RAW, Run-Length Encoded (RLE) RAW, to JPEG.
 
-![](../../../../docs/html/legato_qs_x_r_e54_xu_tm4301b_run2.png)
+![](../../../../docs/html/legato_qs_x_r_e54_xu_tm4301b_run3.png)
 
 The MPLAB Harmony Graphics Suite logo is also a button. Pressing the logo will toggle the application between English and Simplified Chinese. 
 
-![](../../../../docs/html/legato_qs_x_r_e54_xu_tm4301b_run3.png)
+![](../../../../docs/html/legato_qs_x_r_e54_xu_tm4301b_run2.png)
 
 Note that all images and glyphs are retrieved from external NVM via QSPI. The application is purposely setup in single-buffer configuration to allow visual inspection of the data retrieval speed of the various images and glyphs.
 
