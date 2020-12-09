@@ -4,7 +4,7 @@
 Defining the Architecture
 -------------------------
 
-<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_arch.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_arch.png" width="800" height="480" />
 
 The legato_cooker application uses the Legato Graphics Library to render graphics to the display. The Legato graphics library draws the updated sections of the frame to an internal scratch buffer. The contents of the scratch buffer are used to update the contents of the LCD display. Via the ILI9488 display driver, boosted with a combination of DMA and CCL peripherals, scratch buffer data is transferred out to the ILI9488 controller via 8-bit parallel in 8080 mode. 
 
@@ -75,7 +75,7 @@ Configure the hardware as follows:
 
 The final hardware setup should be: 
 
-<img src="legato_qs_e54_cult_cpro_parallel_conf1.png"/>
+![](../../../../docs/html/legato_qs_e54_cult_cpro_parallel_conf1.png)
 
 Power up the board by connecting the power adapter to power connector or a powered USB cable to the DEBUG USB port on the board. 
 
@@ -84,15 +84,16 @@ Running the Demonstration
 
 The application first boots to an alpha-blend Splash Screen.
 
-<img src="legato_qs_e54_cult_cpro_parallel_run1.png"/>
+![](../../../../docs/html/legato_qs_e54_cult_cpro_parallel_run1.png)
+
 
 Once the Splash Screen animation completes, the application boots to a Basic Main Screen. The color gamut for the Basic Main Screen is purposely muted 
 
-<img src="legato_qs_e54_cult_cpro_parallel_run2.png"/>
+![](../../../../docs/html/legato_qs_e54_cult_cpro_parallel_run2.png)
 
 Touch **Cook**, **Reheat**, **Bake** or **Broil** button to initial a cooking progress sequence
 
-<img src="legato_qs_e54_cult_cpro_parallel_run3.png"/>
+![](../../../../docs/html/legato_qs_e54_cult_cpro_parallel_run3.png)
 
 Touch the RGB ellipse button on the upper right to switch to the Color Screen. The Color Screen is designed to transition from the Basic Screen with some simple animation.
 

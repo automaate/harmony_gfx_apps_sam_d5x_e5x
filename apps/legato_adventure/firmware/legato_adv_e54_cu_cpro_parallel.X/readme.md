@@ -4,7 +4,7 @@
 Defining the Architecture
 -------------------------
 
-<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_arch.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_arch.png" width="800" height="480" />
 
 The architecture for this configuraiton is SAM E54 Curiosity Ultra board with a  MXT CPRO display (ILI9488) interface through the 8-bit 8080 mode (DMA-CCL).  
 

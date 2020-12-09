@@ -4,7 +4,7 @@
 Defining the Architecture
 -------------------------
 
-![](../../../../docs/html/legato_qs_e54_cu_tm4301b_ssd1963_arch.png)
+<img src="../../../../docs/html/legato_qs_e54_cu_tm4301b_ssd1963_arch.png" width="800" height="480" />
 
 This application demonstrates single-layer, WQVGA graphics using SRAM memory.
 
