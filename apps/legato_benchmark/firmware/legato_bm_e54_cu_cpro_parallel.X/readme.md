@@ -38,7 +38,7 @@ For the DMA-CCL boosted setup, components TC4, CCL needs to be added.
 
 Additional components to support File System, MSD Client Driver, USB Full Speed Driver, USB Host Layer, SDMMC, SDHC1, QSPI and SST26 needs to be added and connected manually. 
 
-Some of these components are fine with default settings, while other require some changes. The following is a list of all the components that required custom settings. 
+Some of these components use default settings, while other require some changes. The following is a list of all the components that required custom settings. 
 
 ![](../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg1.png)
 

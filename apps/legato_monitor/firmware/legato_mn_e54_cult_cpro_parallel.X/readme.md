@@ -4,7 +4,7 @@
 Defining the Architecture
 -------------------------
 
-<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_arch.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_arch.png" width="800" height="480" />
 
 The application features user touch input through the integrated touch screen on the display panel. Touch input from the touch controller goes through the I2C port, and the Input System Service acquires the touch input information from the Touch and I2C drivers. The Input System Service sends touch events to the Graphics Library, which processes these events and updates the frame data accordingly. 
 
@@ -81,7 +81,8 @@ Configure the hardware as follows:
 
 The final hardware setup should be: 
 
-<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_conf1.png"/>
+![](../../../../docs/html/legato_qs_e54_cult_cpro_parallel_conf1.png)
+
 
 Power up the board by connecting the power adapter to power connector or a powered USB cable to the DEBUG USB port on the board.
 
@@ -90,10 +91,10 @@ Running the Demonstration
 
 When power-on is successful, the demonstration will first boot to a splash screen. After the splash screen, the main screen will be shown. If there is no touch input, the app will be in idle state and the main screen will show a running clock, and the rest of the labels will be blank (---). 
 
-<img src="../../../../docs/html/legato_mn_e54_cult_xpro_parallel-run1.png"/>
+![](../../../../docs/html/legato_mn_e54_cult_xpro_parallel-run1.png)
 
 When the touched, simulated values for the blood pressure and pulse will be shown.  
 
-<img src="../../../../docs/html/legato_mn_e54_cult_xpro_parallel-run2.png"/>
+![](../../../../docs/html/legato_mn_e54_cult_xpro_parallel-run2-run1.png)
 
 * * * * *

@@ -4,7 +4,7 @@
 Defining the Architecture
 -------------------------
 
-<img src="legato_qs_e54_cult_cpro_parallel_arch.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_arch.png" width="480" height="272" />
 
 The legato_cooker application uses the Legato Graphics Library to render graphics to the display. The Legato graphics library draws the updated sections of the frame to an internal scratch buffer. The contents of the scratch buffer are used to update the contents of the LCD display. Via the ILI9488 display driver, boosted with a combination of DMA and CCL peripherals, scratch buffer data is transferred out to the ILI9488 controller via 8-bit parallel in 8080 mode. 
 
@@ -27,7 +27,7 @@ This configuration runs on the SAM E54 Curiosity Ultra board with a 24-bit passt
 Creating the Project Graph
 --------------------------
 
-<img src="legato_qs_e54_cult_cpro_parallel_pg.png" width="800" height="480" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg.png" width="800" height="480" />
 
 The Project Graph diagram shows the Harmony components that are included in this application. Lines between components are drawn to satisfy components that depend on a capability that another component provides. 
 
@@ -35,10 +35,19 @@ For the DMA-CCL boosted setup, components TC4, CCL needs to be added.
 
 Additional components to support QSPI and SST26 needs to be added and connected manually. 
 
-Some of these components are fine with default settings, while other require some changes. The following is a list of all the components that required custom settings 
+Some of these components use default settings, while other require some changes. The following is a list of all the components that required custom settings 
 
-<img src="legato_qs_e54_cult_cpro_parallel_pg.png" width="800" height="480" />
+![](../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg1.png)
 
+![](../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg2.png)
+
+To setup the CCL to clock the pixel data, make sure PB09 is set to CCL_OUT2 
+
+![](../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg3.png)
+
+Instead of write strobe, make sure PB17 is setup as RSDC instead
+
+![](../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg4.png)
 
 Building the Application
 ------------------------
