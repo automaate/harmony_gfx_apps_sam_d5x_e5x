@@ -12,4 +12,4 @@ The user interface of this application contains dynamic labels that show changin
 
 |MPLABX Configuration|Board Configuration|
 |:-------------------|:------------------|
-| [legato_mn_e54_cult_cpro_parallel.X](firmware/legato_mn_e54_cult_cpro_parallel_X/readme.md)| [SAM E54 Curiosity Ultra Development Board](https://www.microchip.com/Developmenttools/ProductDetails/DM320210) using external ILI9488 controller to drive the [maXTouch® Curiosity Pro Board](https://www.microchip.com/Developmenttools/ProductDetails/AC320007) |
+| [legato_mn_e54_cult_cpro_parallel.X](firmware/legato_mn_e54_cult_cpro_parallel.X/readme.md)| [SAM E54 Curiosity Ultra Development Board](https://www.microchip.com/Developmenttools/ProductDetails/DM320210) using external ILI9488 controller to drive the [maXTouch® Curiosity Pro Board](https://www.microchip.com/Developmenttools/ProductDetails/AC320007) |

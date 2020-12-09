@@ -12,4 +12,4 @@ This demonstration provides a touch-enabled starting point for reading images, s
 
 |MPLABX Configuration|Board Configuration|
 |:-------------------|:------------------|
-| [legato_qs_x_r_e54_cult_cpro_parallel.X](firmware/legato_qs_x_r_e54_cult_cpro_parallel_X/readme.md) | [SAM E54 Curiosity Ultra Development Board](https://www.microchip.com/Developmenttools/ProductDetails/DM320210) with a 24-bit passthrough GFX interface card and a [maXTouch Xplained Pro Extension Kit](https://www.microchip.com/Developmenttools/ProductDetails/ATMXT-XPRO) |
+| [legato_qs_x_r_e54_cult_cpro_parallel.X](firmware/legato_qs_x_r_e54_cult_cpro_parallel.X/readme.md) | [SAM E54 Curiosity Ultra Development Board](https://www.microchip.com/Developmenttools/ProductDetails/DM320210) with a 24-bit passthrough GFX interface card and a [maXTouch Xplained Pro Extension Kit](https://www.microchip.com/Developmenttools/ProductDetails/ATMXT-XPRO) |
