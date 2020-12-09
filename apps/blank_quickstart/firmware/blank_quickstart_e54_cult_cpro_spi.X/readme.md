@@ -6,6 +6,7 @@ Defining the Architecture
 
 <img src="legato_qs_e54_cult_cpro_spi_arch.png" width="480" height="272" />
 
+
 The application uses the Legato Graphics library to render text on a label widget, an image and a user-interactive button to the screen. Touching the button on the screen will show the button being pressed. 
 
 ### Demonstration Features
