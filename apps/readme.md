@@ -25,13 +25,13 @@ This application demonstrates parallax and sprite animation capabilities using t
 
 This application shows the frame update rates for various operations in the graphics library, including string rendering, area fills, and image decode and rendering. 
 
-<img src="./../docs/html/legato_benchmark.png" width="272" height="480" />
+<img src="./../docs/html/legato_benchmark.png" width="800" height="480" />
 
 * [Legato Cooker](./legato_cooker/readme.md)
 
 This demonstration provides a touch-enabled cooker UI.
 
-<img src="./../docs/html/legato_cooker.png" width="800" height="480" />
+<img src="./../docs/html/legato_cooker.png" width="272" height="480" />
 
 * [Legato Flash](./legato_flash/readme.md)
 
