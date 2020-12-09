@@ -19,14 +19,13 @@ The following applications are provided to demonstrate both basic and advanced G
 
 This application demonstrates parallax and sprite animation capabilities using the graphics library.
 
-![](./../docs/html/legato_adventure.png)
 <img src="./../docs/html/legato_adventure.png" width="800" height="480" />
 
 * [Legato Benchmark](./legato_benchmark/readme.md)
 
 This application shows the frame update rates for various operations in the graphics library, including string rendering, area fills, and image decode and rendering. 
 
-<img src="./../docs/html/legato_benchmark.png" width="800" height="480" />
+<img src="./../docs/html/legato_benchmark.png" width="272" height="480" />
 
 * [Legato Cooker](./legato_cooker/readme.md)
 
