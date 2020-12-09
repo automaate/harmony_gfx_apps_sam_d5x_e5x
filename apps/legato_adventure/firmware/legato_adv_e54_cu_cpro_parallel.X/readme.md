@@ -4,7 +4,7 @@
 Defining the Architecture
 -------------------------
 
-<img src="legato_qs_e54_cult_cpro_parallel_arch.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_arch.png" width="480" height="272" />
 
 The architecture for this configuraiton is SAM E54 Curiosity Ultra board with a  MXT CPRO display (ILI9488) interface through the 8-bit 8080 mode (DMA-CCL).  
 
@@ -92,18 +92,18 @@ The application first boots to an animated Splash Screen. Once the Splash Screen
 
 When at rest, the demo will cycle through idle sprite animations. Various areas of the screen are touch interactive
 
-<img src="legato_adv_e54_cu_cpro_parallel_img1.png"/>
+<img src="../../../../docs/html/legato_adv_e54_cu_cpro_parallel_img1.png"/>
 
 If initiated to run, the lamb sprite will run to the end of the screen, and play out a sequence of smacking into a wall, hurt and dizzy animations. 
 
-<img src="legato_adv_e54_cu_cpro_parallel_img2.png"/>
+<img src="../../../../docs/html/legato_adv_e54_cu_cpro_parallel_img2.png"/>
 
 Tap Jump and the lamb will play out a jump animation. 
 
-<img src="legato_adv_e54_cu_cpro_parallel_img3.png"/>
+<img src="../../../../docs/html/legato_adv_e54_cu_cpro_parallel_img3.png"/>
 
 Info Screen describes the features supported by this demo 
 
-<img src="legato_adv_e54_cu_cpro_parallel_img4.png"/>
+<img src="../../../../docs/html/legato_adv_e54_cu_cpro_parallel_img4.png"/>
 
 * * * * *

@@ -4,7 +4,7 @@
 Defining the Architecture
 -------------------------
 
-<img src="legato_qs_e54_cult_cpro_parallel_arch.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_arch.png" width="480" height="272" />
 
 The application continuously uses the graphics library to render text, fill areas, and draw images to the screen. Once a layer is completely rendered to, the graphics library increments a layer swap counter. The application periodically (at 1 second intervals) samples the layer swap counter and calculates the difference from the previous sample. This difference is shown as the Frame Update Rate (Hz). 
 
@@ -81,7 +81,7 @@ Configure the hardware as follows:
 
 The final hardware setup should be: 
 
-<img src="legato_qs_e54_cult_cpro_parallel_conf1.png"/>
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_conf1.png"/>
 
 Power up the board by connecting the power adapter to power connector or a powered USB cable to the DEBUG USB port on the board.
 
@@ -92,7 +92,7 @@ On start-up, the application will display a splash screen.
 
 After the splash-screen completes, the String Update benchmark screen is shown. In this screen, a counter is incremented at every application cycle. The screen demonstrates the rate at which the graphics library renders a string on the screen. This involves a fill operation that clears the background, lookup of the glyphs from the string library, and the drawing of the glyphs on the frame buffer.
 
-<img src="legato_bm_e70_xu_tm4301b_run1.png"/>
+<img src="../../../../docs/html/legato_bm_e70_xu_tm4301b_run1.png"/>
 
 The **Frame Update (Hz)** field shows the current or instantaneous rate at which the graphics library updates the label widget that shows the counter value. Touching the Frame Update value switches between the current value (curr) and the average (avg) value across 10 samples.
 
@@ -100,13 +100,13 @@ Touching the **+** and **-** buttons increases and decreases the size of the str
 
 Touching the **Next** button switches to the Motion and Fill benchmark screen. In this screen, squares are showing moving across the screen. The Frame Update value is the rate at which the graphics library is able to render all the squares on the screen at their new positions. This involves a fill operation of the background color at the old location of the squares and a fill of the squares colors at the new position
 
-<img src="legato_bm_e70_xu_tm4301b_run2.png"/>
+<img src="../../../../docs/html/legato_bm_e70_xu_tm4301b_run2.png"/>
 
 The number and size of the squares can be increased and decreased using the **+** and **-** buttons. If the maximum or minimum size is reached, touching **+** or **-**, respectively, will switch to a full screen fill of alternating colors.
 
 Touching the **Next** button transitions to the Image Decode and Rendering screen. In this screen, two images of the same size are alternately rendered between application cycles. This involves a fill of the background color, decode and conversion of the image to the frame buffer format, and the drawing of the image to the frame buffer. The Frame Update value is the rate at which the graphics library is able to render an image on the screen.
 
-<img src="legato_bm_e70_xu_tm4301b_run3.png"/>
+<img src="../../../../docs/html/legato_bm_e70_xu_tm4301b_run3.png"/>
 
 The size of the images can be increased and decreased using the **+** and **-** buttons.
 

@@ -4,7 +4,7 @@
 Defining the Architecture
 -------------------------
 
-<img src="legato_qs_e54_cult_cpro_parallel_arch.png" width="800" height="480" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_arch.png" width="800" height="480" />
 
 The block diagrams below show the various software and hardware blocks used in this application. 
 
@@ -27,7 +27,7 @@ User touch input on the display panel is received thru the PCAP capacitive touch
 Creating the Project Graph
 --------------------------
 
-<img src="legato_qs_e54_cult_cpro_parallel_pg.png" width="800" height="480" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg.png" width="800" height="480" />
 
 Adding the **SAM E54 Curiosity Ultra BSP** and **Legato Graphics w/ MXT Curiosity Pro Display** Graphics Template component into the project graph.
 
@@ -39,17 +39,17 @@ Additional components to support File System, MSD Client Driver, USB Full Speed 
 
 Some of these components are fine with default settings, while other require some changes. The following is a list of all the components that required custom settings.
 
-<img src="legato_qs_e54_cult_cpro_parallel_pg1.png" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg1.png" />
 
-<img src="legato_qs_e54_cult_cpro_parallel_pg2.png"  />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg2.png"  />
 
 To setup the CCL to clock the pixel data, make sure PB09 is set to CCL_OUT2
 
-<img src="legato_qs_e54_cult_cpro_parallel_pg3.png"  />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg3.png"  />
 
 Instead of write strobe, make sure PB17 is setup as RSDC instead
 
-<img src="legato_qs_e54_cult_cpro_parallel_pg4.png"  />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg4.png"  />
 
 
 Building the Application
@@ -80,44 +80,44 @@ Configure the hardware as follows:
 
 The final hardware setup should be: 
 
-<img src="legato_qs_e54_cult_cpro_parallel_conf1.png" width="800" height="480" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_conf1.png" width="800" height="480" />
 
 Running the Demonstration
 --------------------------
 
 The app first boots to the animation Splash Screen. Once the Splash Screen animation completes, the Home Screen is shown:
 
-<img src="legato_sc_e54_cult_xpro_parallel-run1.png" />
+<img src="../../../../docs/html/legato_sc_e54_cult_xpro_parallel-run1.png" />
 
 Touching the (?) icon opens a Help Screen that describes the functions of the buttons in the Home Screen.
 
-<img src="legato_sc_e54_cult_xpro_parallel-run2.png" />
+<img src="../../../../docs/html/legato_sc_e54_cult_xpro_parallel-run2.png" />
 
 Touching (X) closes the Help Screen and returns to the Home Screen. 
 
 The List Wheel Widget Demo Screen shows an example on how the list wheel widget can be used to provide UI controls for changing the time. The list wheel widget supports momentum where the user can �flick� on the widget to quickly go through the list.
 
-<img src="legato_sc_e54_cult_xpro_parallel-run3.png" />
+<img src="../../../../docs/html/legato_sc_e54_cult_xpro_parallel-run3.png" />
 
 
 The Touch Test Widget Demo Screen shows the Touch Test Widget, and how it can be used to verify touch screen functionality during product development.
 
-<img src="legato_sc_e54_cult_xpro_parallel-run4.png" />
+<img src="../../../../docs/html/legato_sc_e54_cult_xpro_parallel-run4.png" />
 
 
 When the white active area of the Touch Test Widget is touched, intersecting horizontal and vertical lines indicate the touch points. 
 
 The Keypad Widget Demo Screen shows how the keypad and text entry widgets can be used to provide an interface for users to input text.
 
-<img src="legato_sc_e54_cult_xpro_parallel-run5.png" />
+<img src="../../../../docs/html/legato_sc_e54_cult_xpro_parallel-run5.png" />
 
 The Alpha Blending Demo screen shows the alpha blending capabilities of the Legato Graphics library. The demo features two JPEG images that are alpha blended on top of each other. The (+) and (-) buttons and the slider widget on the right side of the images provides a way to change the alpha amounts.
 
-<img src="legato_sc_e54_cult_xpro_parallel-run6.png" />
+<img src="../../../../docs/html/legato_sc_e54_cult_xpro_parallel-run6.png" />
 
 The Slide Show Demo Screen features the slide show widget being used to transition between several images using the available controls. 
  
-<img src="legato_sc_e54_cult_xpro_parallel-run7.png" />
+<img src="../../../../docs/html/legato_sc_e54_cult_xpro_parallel-run7.png" />
 
 Touching the LEFT (<) and RIGHT (>) buttons manually transitions through the list of images. Touching the PLAY (|>) and FAST-FORWARD (|>>) buttons will automatically transition the images at 2s and 500ms intervals, respectively. The transitions are triggered using events from the system timer service. 
 

@@ -11,7 +11,6 @@ The application uses the Legato Graphics library to render text on a label widge
 
 ### Demonstration Features
 
-* Legato Graphics Library 
 * ILI9488 display controller driver 
 * 4-line SPI display interface driver 
 * Time system service, timer-counter peripheral library and driver 
@@ -49,11 +48,11 @@ Configuring the Hardware
 
 The final setup should be:
 
-<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_conf1.png" width="800" height="480" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_conf1.png" width="480" height="272" />
 
 Set the IM switches on the MXT Curiosity Pro Display to IM[2:0] = 111b.
 
-<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_conf2.png" width="800" height="480" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_conf2.png" width="480" height="272" />
 
 Running the Demonstration
 -------------------------

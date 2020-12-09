@@ -4,7 +4,7 @@
 Defining the Architecture
 -------------------------
 
-<img src="legato_fl_e54_cult_cpro_parallel_arch.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel_arch.png" width="480" height="272" />
 
 This application uses the USB file systems in MPLAB Harmony and the USB
 driver to scan the MSD for a .hex file with resources and reads them
@@ -60,7 +60,7 @@ configured with the SST26 driver.
 Creating the Project Graph
 --------------------------
 
-<img src="legato_fl_e54_cult_cpro_parallel_pg.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel_pg.png" width="480" height="272" />
 
 Adding the **SAM E54 Curiosity Ultra BSP** and **Legato Graphics w/ MXT Curiosity Pro Display** Graphics Template component into the project graph.
 
@@ -72,23 +72,23 @@ Additional components to support File System, MSD Client Driver, USB Full Speed 
 
 Some of these components are fine with default settings, while other require some changes. The following is a list of all the components that required custom settings. 
 
-<img src="legato_fl_e54_cult_cpro_parallel_conf1.png"/>
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel_conf1.png"/>
 
-<img src="legato_fl_e54_cult_cpro_parallel_conf2.png"/>
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel_conf2.png"/>
 
-<img src="legato_fl_e54_cult_cpro_parallel_conf3.png"/>
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel_conf3.png"/>
 
 For QSPI access, make sure all 7 pins for QSPI is mapped.
 
-<img src="legato_fl_e54_cult_cpro_parallel_conf4.png"/>
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel_conf4.png"/>
 
 To setup the CCL to clock the pixel data, make sure PB09 is set to CCL_OUT2 
 
-<img src="legato_fl_e54_cult_cpro_parallel_conf5.png"/>
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel_conf5.png"/>
 
 Instead of write strobe, make sure PB17 is setup as RSDC instead
 
-<img src="legato_fl_e54_cult_cpro_parallel_conf6.png"/>
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel_conf6.png"/>
 
 
 Building the Application
@@ -123,25 +123,25 @@ For media stored on USB device:
 
 The final hardware setup should be: 
 
-<img src="legato_fl_e54_cult_cpro_parallel.X_conf7.png"/>
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel.X_conf7.png"/>
 
 Running the Demonstration
 --------------------------
 
 When power-on is successful, without a USB MSD device or SD MMC device attached to the **Target USB** port the demonstration will display a screen with the message **No valid storage mediums found. Please insert a USB device or SD Card**:
 
-<img src="legato_fl_e54_cult_cpro_parallel_run1.png"/>
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel_run1.png"/>
 
 If a valid USB MSD device is connected, the display will a USB button. LED1 (red) will light up also. 
 
 If a valid SDMMC device is connected, the display will a SD button. LED2 (yellow) will light up also.
 
-<img src="legato_fl_e54_cult_cpro_parallel_run2.png"/>
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel_run2.png"/>
 
 Make sure the USB MSD device or the SD MMC device has FAT32 file system format and a valid external resources file named precisely **SQI.hex** is copied inside.
 
 Press and release the SD button or the USB button on-screen. The application will initiate the data transfer on release of the button. Depending on the size of SQI.hex file (greater than 500 kilobytes), the application may freeze with no visual feedback, upwards of 30 seconds. It will then display a progress bar to indicate the transfer. The transfer completes when the progress bar is filled. The application will then display a button with **OK**.
 
-<img src="legato_fl_e54_cult_cpro_parallel_run3.png"/>
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel_run3.png"/>
 
 * * * * *

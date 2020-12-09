@@ -12,4 +12,4 @@ This application demonstrates parallax and sprite animation capabilities using t
 
 |MPLABX Configuration|Board Configuration|
 |:-------------------|:------------------|
-| [legato_adv_e54_cu_cpro_parallel.X](legato_adv_e54_cu_cpro_parallel_X.html)| [SAM E54 Curiosity Ultra Development Board](https://www.microchip.com/Developmenttools/ProductDetails/DM320210) using external ILI9488 controller to drive the [maXTouch® Curiosity Pro Board](https://www.microchip.com/Developmenttools/ProductDetails/AC320007) |
+| [legato_adv_e54_cu_cpro_parallel.X](firmware/legato_adv_e54_cu_cpro_parallel_X/readme.md)| [SAM E54 Curiosity Ultra Development Board](https://www.microchip.com/Developmenttools/ProductDetails/DM320210) using external ILI9488 controller to drive the [maXTouch® Curiosity Pro Board](https://www.microchip.com/Developmenttools/ProductDetails/AC320007) |

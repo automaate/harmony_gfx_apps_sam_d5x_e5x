@@ -4,7 +4,7 @@
 Defining the Architecture
 -------------------------
 
-<img src="legato_qs_x_r_e54_cult_cpro_parallel_arch.png" width="800" height="480" />
+<img src="../../../../docs/html/legato_qs_x_r_e54_cult_cpro_parallel_arch.png" width="800" height="480" />
 
 The legato_quickstart_external_resources (external flash reader) application uses the reads previously programmed binary data from the external non-volatile QSPI memory. The Graphics Library is used to render graphics to the scratch buffer. Via the ILI9488 Display Driver, boosted with a combination of DMA and CCL peripherals, scratch buffer data is transferred out to the ILI9488 controller via 8-bit parallel in 8080 mode. 
 
@@ -31,7 +31,7 @@ The application reads the binary data from the external non-volatile memory via 
 Creating the Project Graph
 --------------------------
 
-<img src="legato_qs_x_r_e54_cult_cpro_parallel_pg.png" width="800" height="480" />
+<img src="../../../../docs/html/legato_qs_x_r_e54_cult_cpro_parallel_pg.png" width="800" height="480" />
 
 Adding the **SAM E54 Curiosity Ultra BSP** and **Legato Graphics w/ MXT Curiosity Pro Display** Graphics Template component into the project graph. 
 
@@ -43,21 +43,21 @@ Additional components to support File System, MSD Client Driver, USB Full Speed 
 
 Some of these components are fine with default settings, while other require some changes. The following is a list of all the components that required custom settings. 
 
-<img src="legato_qs_e54_cult_cpro_parallel_pg1.png" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg1.png" />
 
-<img src="legato_qs_e54_cult_cpro_parallel_pg2.png" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg2.png" />
 
 For QSPI access, make sure all 7 pins for QSPI is mapped.
 
-<img src="legato_qs_x_r_e54_cult_cpro_parallel_pg3.png"  />
+<img src="../../../../docs/html/legato_qs_x_r_e54_cult_cpro_parallel_pg3.png"  />
 
 To setup the CCL to clock the pixel data, make sure PB09 is set to CCL_OUT2 
 
-<img src="legato_qs_e54_cult_cpro_parallel_pg3.png"  />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg3.png"  />
 
 Instead of write strobe, make sure PB17 is setup as RSDC instead
 
-<img src="legato_qs_e54_cult_cpro_parallel_pg4.png" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_parallel_pg4.png" />
 
 
 Building the Application
@@ -92,20 +92,20 @@ For media stored on USB device:
 
 The final hardware setup should be: 
 
-<img src="legato_fl_e54_cult_cpro_parallel.X_conf7.png" />
+<img src="../../../../docs/html/legato_fl_e54_cult_cpro_parallel.X_conf7.png" />
 
 Running the Demonstration
 -------------------------
 
 When power-on is successful, the following screen will appear on the display 
 
-<img src="legato_qs_x_r_e70_xu_tm4301b_run1.png" />
+<img src="../../../../docs/html/legato_qs_x_r_e70_xu_tm4301b_run1.png" />
 
 Pressing the button will cause the application to load a new image. The image cycles in order from Uncompressed RAW with Direct Blit, Uncompressed RAW, Run-Length Encoded (RLE) RAW, to JPEG.
 
 The MPLAB Harmony Graphics Suite logo is also a button. Pressing the logo will toggle the application between English and Simplified Chinese. 
 
-<img src="legato_qs_x_r_e70_xu_tm4301b_run2.png" />
+<img src="../../../../docs/html/legato_qs_x_r_e70_xu_tm4301b_run2.png" />
 
 Note that all images and glyphs are retrieved from external NVM via QSPI. The application is purposely setup in single-buffer configuration to allow visual inspection of the data retrieval speed of the various images and glyphs.
 
