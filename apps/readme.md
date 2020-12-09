@@ -31,7 +31,7 @@ This application shows the frame update rates for various operations in the grap
 
 This demonstration provides a touch-enabled cooker UI.
 
-<img src="./../docs/html/legato_cooker.png" width="272" height="480" />
+<img src="./../docs/html/legato_cooker.png" width="800" height="480" />
 
 * [Legato Flash](./legato_flash/readme.md)
 
@@ -43,7 +43,7 @@ The legato_flash demonstration application serves as an external memory programm
 
 The user interface of this application contains dynamic labels that show changing values for systolic pressure, diastolic pressure and pulse rate, very similar to what would be seen on a consumer blood pressure and heartbeat monitor device.
 
-<img src="./../docs/html/legato_monitor.png" width="800" height="480" />
+<img src="./../docs/html/legato_monitor.png" width="272" height="480" />
 
 * [Legato Quickstart](./legato_quickstart/readme.md)
 
