@@ -74,7 +74,7 @@ Configure the hardware as follows:
 
 * Attach the 24-bit pass through card to the GFX Connector on the SAM E54 Curiosity Ultra board. 
 * Connect the ribbon cable from the maXTouch Curiosity Pro Display to the ribbon connector on the 24-bit pass through card. Make sure that the S1 switch on the 24-bit pass through card is set to 2. 
-* On the backside of the maXTouch Curiosity Pro display, set the IM[2:0] switches to �011� for 8-bit MCU mode. 
+* On the backside of the maXTouch Curiosity Pro display, set the IM[2:0] switches to**01** for 8-bit MCU mode. 
 * Connect a USB cable from the host computer to the DEBUG USB port on the SAM E54 Curiosity Ultra board. This USB connection is used for code download and debugging. 
 * Connect 5.5V power supply to the SAM E54 Curiosity Ultra board is optional 
 
@@ -95,7 +95,7 @@ Touching the (?) icon opens a Help Screen that describes the functions of the bu
 
 Touching (X) closes the Help Screen and returns to the Home Screen. 
 
-The List Wheel Widget Demo Screen shows an example on how the list wheel widget can be used to provide UI controls for changing the time. The list wheel widget supports momentum where the user can �flick� on the widget to quickly go through the list.
+The List Wheel Widget Demo Screen shows an example on how the list wheel widget can be used to provide UI controls for changing the time. The list wheel widget supports momentum where the user can **flick** on the widget to quickly go through the list.
 
 <img src="../../../../docs/html/legato_sc_e54_cult_xpro_parallel-run3.png" />
 
