@@ -81,7 +81,7 @@ Configure the hardware as follows:
 
 The final hardware setup should be: 
 
-<img src="legato_qs_e54_cult_cpro_parallel_conf1.png"/>
+![](../../../../docs/html/legato_qs_e54_cult_cpro_parallel_conf1.png)
 
 Power up the board by connecting the power adapter to power connector or a powered USB cable to the DEBUG USB port on the board.
 
@@ -92,18 +92,18 @@ The application first boots to an animated Splash Screen. Once the Splash Screen
 
 When at rest, the demo will cycle through idle sprite animations. Various areas of the screen are touch interactive
 
-<img src="../../../../docs/html/legato_adv_e54_cu_cpro_parallel_img1.png"/>
+![](../../../../docs/html/legato_adv_e54_cu_cpro_parallel_img1.png)
 
 If initiated to run, the lamb sprite will run to the end of the screen, and play out a sequence of smacking into a wall, hurt and dizzy animations. 
 
-<img src="../../../../docs/html/legato_adv_e54_cu_cpro_parallel_img2.png"/>
+![](../../../../docs/html/legato_adv_e54_cu_cpro_parallel_img2.png)
 
 Tap Jump and the lamb will play out a jump animation. 
 
-<img src="../../../../docs/html/legato_adv_e54_cu_cpro_parallel_img3.png"/>
+![](../../../../docs/html/legato_adv_e54_cu_cpro_parallel_img3.png)
 
 Info Screen describes the features supported by this demo 
 
-<img src="../../../../docs/html/legato_adv_e54_cu_cpro_parallel_img4.png"/>
+![](../../../../docs/html/legato_adv_e54_cu_cpro_parallel_img4.png)
 
 * * * * *
