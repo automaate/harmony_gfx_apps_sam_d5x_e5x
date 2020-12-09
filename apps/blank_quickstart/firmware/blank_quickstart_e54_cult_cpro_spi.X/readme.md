@@ -4,7 +4,7 @@
 Defining the Architecture
 -------------------------
 
-<img src="./../../../docs/html/legato_qs_e54_cult_cpro_spi_arch.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_arch.png" width="480" height="272" />
 
 
 The application uses the Legato Graphics library to render text on a label widget, an image and a user-interactive button to the screen. Touching the button on the screen will show the button being pressed. 
@@ -21,7 +21,7 @@ The application uses the Legato Graphics library to render text on a label widge
 Creating the Project Graph
 --------------------------
 
-<img src="./../../../docs/html/legato_qs_e54_cult_cpro_spi_pg.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_pg.png" width="480" height="272" />
 
 The Project Graph diagram shows the Harmony components that are included in this application. Lines between components are drawn to satisfy components that depend on a capability that another component provides.
 
@@ -29,7 +29,7 @@ Adding the **SAM E54 Curiosity Ultra BSP** and **Legato Graphics w/ MXT Curiosit
 
 To configure the project for an SPI Interface, set the Display Interface setting for the **Legato Graphics w/ MXT Curiosity Pro Display** component to SPI 4-Line. 
 
-<img src="./../../../docs/html/legato_qs_e54_cult_cpro_spi_pg1.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_pg1.png" width="480" height="272" />
 
 Building the Application
 ------------------------
@@ -49,17 +49,17 @@ Configuring the Hardware
 
 The final setup should be:
 
-<img src="./../../../docs/html/legato_qs_e54_cult_cpro_spi_conf1.png" width="800" height="480" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_conf1.png" width="800" height="480" />
 
 Set the IM switches on the MXT Curiosity Pro Display to IM[2:0] = 111b.
 
-<img src="./../../../docs/html/legato_qs_e54_cult_cpro_spi_conf2.png" width="800" height="480" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_conf2.png" width="800" height="480" />
 
 Running the Demonstration
 -------------------------
 
 When power-on is successful, the demonstration will display a similar menu to that shown in the following figure (different configurations may have slight variation in the screen aspect ratio):
 
-<img src="./../../../docs/html/legato_qs_e54_cu_cpro_spi_run1.png" />
+<img src="../../../../docs/html/legato_qs_e54_cu_cpro_spi_run1.png" />
 
 * * * * *
