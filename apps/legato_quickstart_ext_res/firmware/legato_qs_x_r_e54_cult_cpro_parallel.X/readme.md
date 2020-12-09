@@ -82,7 +82,7 @@ Configure the hardware as follows:
 
 * Attach the 24-bit pass through card to the GFX Connector on the SAM E54 Curiosity Ultra board. 
 * Connect the ribbon cable from the maXTouch Curiosity Pro Display to the ribbon connector on the 24-bit pass through card. Make sure that the S1 switch on the 24-bit pass through card is set to 2. 
-* On the backside of the maXTouch Curiosity Pro display, set the IM[2:0] switches to �011� for 8-bit MCU mode. 
+* On the backside of the maXTouch Curiosity Pro display, set the IM[2:0] switches to **011** for 8-bit MCU mode. 
 * Connect a USB cable from the host computer to the DEBUG USB port on the SAM E54 Curiosity Ultra board. This USB connection is used for code download and debugging. 
 * Connect 5.5V power supply to the SAM E54 Curiosity Ultra board is optional 
 
