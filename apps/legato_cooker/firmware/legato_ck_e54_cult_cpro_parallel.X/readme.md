@@ -52,7 +52,7 @@ Instead of write strobe, make sure PB17 is setup as RSDC instead
 Building the Application
 ------------------------
 
-The parent directory for this application is legato_cooker. To build this application, use MPLAB X IDE to open the legato_cooker/firmware/legato_ck_e54_cult_cpro_parallel.X project file.
+The parent directory for this application is apps/egato_cooker. To build this application, use MPLAB X IDE to open the apps/legato_cooker/firmware/legato_ck_e54_cult_cpro_parallel.X project file.
 
 The following table lists configuration properties:
 

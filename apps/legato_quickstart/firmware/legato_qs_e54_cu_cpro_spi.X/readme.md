@@ -32,7 +32,7 @@ Adding the **SAM E54 Curiosity Ultra BSP** and **Legato Graphics w/ MXT Curiosit
 Building the Application
 ------------------------
 
-The parent directory for this application is gfx/apps/legato_quickstart. To build this application, use MPLAB X IDE to open the gfx/apps/legato_quickstart/firmware/legato_qs_e54_cu_cpro_spi.X project file. 
+The parent directory for this application is apps/legato_quickstart. To build this application, use MPLAB X IDE to open the apps/legato_quickstart/firmware/legato_qs_e54_cu_cpro_spi.X project file. 
 
 The following table lists configuration properties: 
 

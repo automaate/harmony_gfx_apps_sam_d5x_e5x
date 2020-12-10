@@ -51,7 +51,7 @@ Instead of write strobe, make sure PB17 is setup as RSDC instead
 Building the Application
 ------------------------
 
-The parent directory for this application is legato_monitor. To build this application, use MPLAB X IDE to open the legato_monitor/firmware/legato_qs_e54_cult_cpro_parallel.X project file. 
+The parent directory for this application is apps/legato_quickstart. To build this application, use MPLAB X IDE to open the apps/legato_quickstart/firmware/legato_qs_e54_cult_cpro_parallel.X project file. 
 
 The following table lists configuration properties:
 

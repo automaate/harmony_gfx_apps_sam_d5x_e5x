@@ -4,10 +4,9 @@
 Defining the Architecture
 -------------------------
 
-<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_arch.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_arch.png" width="800" height="480" />
 
-
-The application uses the Legato Graphics library to render text on a label widget, an image and a user-interactive button to the screen. Touching the button on the screen will show the button being pressed. 
+The application uses the ILI9488 display driver APIs to render text and an image onto the screen.
 
 ### Demonstration Features
 
@@ -20,7 +19,7 @@ The application uses the Legato Graphics library to render text on a label widge
 Creating the Project Graph
 --------------------------
 
-<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_pg.png" width="480" height="272" />
+<img src="../../../../docs/html/legato_qs_e54_cult_cpro_spi_pg.png" width="800" height="480" />
 
 The Project Graph diagram shows the Harmony components that are included in this application. Lines between components are drawn to satisfy components that depend on a capability that another component provides.
 
@@ -33,13 +32,13 @@ To configure the project for an SPI Interface, set the Display Interface setting
 Building the Application
 ------------------------
 
-The parent directory for this application is apps/legato_quickstart. To build this application, use MPLAB X IDE to open the apps/legato_quickstart/firmware/legato_qs_e54_cu_cpro_spi.X project file. 
+The parent directory for this application is blank_quickstart. To build this application, use MPLAB X IDE to open the apps/blank_quickstart/firmware/blank_quickstart_e54_cult_cpro_spi.X project file. 
 
 The following table lists configuration properties:
 
 |Project Name|BSP Used|Graphics Template Used|Description|
 |:-----------|:-------|:---------------------|:----------|
-| legato_qs_e54_cu_cpro_spi.X | SAM E54 Curiosity Ultra BSP | Legato graphics w/ maXTouch Curiosity Pro Display  | SAM E54 Curiosity Ultra w/ maXTouch maXTouch Curiosity Pro display via 8-bit parallel interface |
+| blank_quickstart_e54_cult_cpro_spi.X | SAM E54 Curiosity Ultra BSP | Legato graphics w/ maXTouch Curiosity Pro Display  | SAM E54 Curiosity Ultra w/ maXTouch maXTouch Curiosity Pro display via 8-bit parallel interface |
 
 > \*\*\_NOTE:\_\*\* This application may contain custom code that is marked by the comments // START OF CUSTOM CODE ... and // END OF CUSTOM CODE. When using the MPLAB Harmony Configurator to regenerate the application code, use the "ALL" merging strategy and do not remove or replace the custom code.
 

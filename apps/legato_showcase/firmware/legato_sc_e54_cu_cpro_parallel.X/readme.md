@@ -55,7 +55,7 @@ Instead of write strobe, make sure PB17 is setup as RSDC instead
 Building the Application
 ------------------------
 
-The parent directory for this application is gfx_apps/legato_showcase. To build this application, use MPLAB X IDE to open the gfx_apps/legato_showcase/firmware/legato_sc_e54_cult_xpro_parallel.X project file. 
+The parent directory for this application is apps/legato_showcase. To build this application, use MPLAB X IDE to open the apps/legato_showcase/firmware/legato_sc_e54_cult_xpro_parallel.X project file. 
 
 The following table lists configuration properties: 
 
